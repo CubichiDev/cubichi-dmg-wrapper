@@ -7,7 +7,7 @@ Create a wrapped Gravit launcher from a .jar file.
 - macOS
 - Homebrew
 - `sips` and `iconutil` (built-in on macOS)
-- `create-dmg` (install with Homebrew):
+- `create-dmg` form [this repo](https://github.com/create-dmg/create-dmg):
     
 ```bash
 brew install create-dmg
