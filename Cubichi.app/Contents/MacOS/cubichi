@@ -1,3 +1,7 @@
 #!/bin/bash
-/Library/Java/JavaVirtualMachines/liberica-jre-21-full.jre/Contents/Home/bin/java \
-    -jar "$(dirname "$0")/../Resources/launcher.jar"
+
+RESOURCES_DIR="$(dirname "$0")/../Resources"
+JAVA_RUNTIME="$RESOURCES_DIR/jre/Contents/Home/bin/java"
+LAUNCHER_JAR="$RESOURCES_DIR/launcher.jar"
+
+"$JAVA_RUNTIME" -jar "$LAUNCHER_JAR"
