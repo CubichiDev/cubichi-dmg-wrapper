@@ -15,6 +15,8 @@ brew install create-dmg
 
 ## How to use
 
+Launcher path: `Cubichi.app/Resources/launcher.jar`.
+
 - `make all`: Generates the ICNS and creates the DMG. DMG file will appear in `release/` folder.
 
 ### Other commands
